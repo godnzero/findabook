@@ -1,0 +1,32 @@
+#labelname{
+    padding-right: 10px;
+    padding-left: 0px;
+    text-align: right;
+}
+
+#result{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#result.col-6{
+    background-color: Beige;
+    margin-bottom: 20px; 
+}
+
+.row{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+    font-weight: 1000;
+ }
+
+.forcenter{
+    max-width: 50%;
+    margin: auto;
+    padding: auto;
+    margin-top: 20%;
+    margin-bottom: 200%;
+}
