@@ -46,7 +46,7 @@
     
 <img src="assets/logo-MULKC.png" alt="..." class="img-fluid" width="500" height="600" style="max-width:100%;height:auto;">
     <!--Show Reserve -->
-    <div class="container-fluid">
+    <div class="container">
         <!--<h1>Search Information</h1>-->
         <div class="row">
             <div id="labelname" class="col-6">Library | ห้องสมุด</div>
@@ -66,7 +66,7 @@
         
             <div id="labelname" class="col-6">Barcode | บาร์โค้ด</div>
             <div id="result" class="col-6" align="left"><b><?php echo $result["f_barcode"] ?></b> </div>                 
-        </div>
+        </div><!--row-->
             <h1 align="right">Map Location</h1>
             <div align="center"><img src="admin/import_img/map_images/<?php echo $result["image_path"]?>"></div> 
     <center>
@@ -74,7 +74,7 @@
         <button type="button" class="btn btn-primary" id="found">Found</button>
         <button type="button" class="btn btn-danger" id="Nfound">Not Found</button>
     </center>
-    </div>
+    </div><!--container-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <!-- Counter -->
 <script>
