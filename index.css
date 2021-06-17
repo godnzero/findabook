@@ -17,6 +17,7 @@
 .row{
     font-size: 15px;
     font-weight: bold;
+    margin-right: 0px;
 }
 
 ::-webkit-input-placeholder {

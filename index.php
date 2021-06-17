@@ -66,9 +66,10 @@
         
             <div id="labelname" class="col-6">Barcode | บาร์โค้ด</div>
             <div id="result" class="col-6" align="left"><b><?php echo $result["f_barcode"] ?></b> </div>                 
-        </div><!--row-->
+        
             <h1 align="right">Map Location</h1>
             <div align="center"><img src="admin/import_img/map_images/<?php echo $result["image_path"]?>"></div> 
+        </div><!--row-->
     <center>
         <h1>Found Book?</h1>
         <button type="button" class="btn btn-primary" id="found">Found</button>
